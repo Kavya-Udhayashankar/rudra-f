@@ -1,0 +1,11 @@
+-module(main). 
+-export([start/0]). 
+
+start() -> 
+        x,
+        io:fwrite("~f~n",[1.1+1.2]), 
+        io:fwrite("~e~n",[1.1+1.2]),
+         {ok, [X]} = io:fread("input : ", "~d").
+
+
+io:format("~w NUMBER ~B",[])
